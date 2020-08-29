@@ -1,5 +1,9 @@
 # Suri
-My Suricata setup
+[![Made with](https://img.shields.io/static/v1?label=Suricata&message=5.0.3&color=orange)](https://www.suricata-ids.org)
+
+My Suricata (v5.0.3) setup consists of using ET Open, TrafficID and AttackDetection rulesets.
+
+Tip - There is useful *Snort* extension in VSCode for rule highlighting.
 
 # Installation Procedure
 
@@ -87,3 +91,7 @@ sudo suricata-update enable-source osif/trafficid
 sudo suricata-update enable-source ptresearch/attackdetection
 sudo suricata-update   # Do not forget to update rules after activating source
 ```
+
+## Protocol Anomaly Detection
+
+Suricata is also capable of performing [protocol anomaly detection](https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Protocol_Anomalies_Detection).
