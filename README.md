@@ -22,8 +22,10 @@ sudo suricata-update
 
 ## Enable New Rules Source
 
+Enable OSIF's [TrafficID](https://github.com/OISF/suricata-trafficid/blob/master/rules/traffic-id.rules) and PTResearch's [AttackDetection](https://github.com/ptresearch/AttackDetection) rulesets.
+
 ```sh
 sudo suricata-update enable-source osif/trafficid
 sudo suricata-update enable-source ptresearch/attackdetection
-sudo suricata-update   # Donot forget to update rules after activating source
+sudo suricata-update   # Do not forget to update rules after activating source
 ```
