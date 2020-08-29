@@ -5,11 +5,20 @@ My Suricata (v5.0.3) setup consists of using ET Open, TrafficID, AttackDetection
 
 Tip - There is a useful *Snort* extension in VSCode for rule highlighting.
 
-# Installation Procedure
+## Installation
 
 ```sh
 brew install suricata    # For MacOS
 apt install suricata     # For Linux
+```
+
+## Starting Suricata
+
+```sh
+suricata -i eth0                    # Run Suricata in IDS mode in interface eth0
+suricata -D -i eth0                 # Run Suricata as a daemon
+suricata -r traffic.pcap            # Feed the pcap file to Suricata for offline processing
+suricata --simulate-ips -i eth0     # Run Suricata in IPS mode.
 ```
 
 ## Test Rules Validity
