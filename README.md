@@ -4,15 +4,19 @@ My Suricata setup
 # Installation Procedure
 
 ```sh
-brew install suricata
-apt install suricata
+brew install suricata    # For MacOS
+apt install suricata     # For Linux
 ```
 
 ## List Rules
 
 ```sh
 sudo suricata-update list-sources
+```
 
+## Available Sources
+
+```yaml
 Name: et/open
   Vendor: Proofpoint
   Summary: Emerging Threats Open Ruleset
