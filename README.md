@@ -1,7 +1,7 @@
 # Suri
 [![Made with](https://img.shields.io/static/v1?label=Suricata&message=5.0.3&color=orange)](https://www.suricata-ids.org)
 
-<img width="809" alt="Screen Shot 2020-09-05 at 14 21 09" src="https://user-images.githubusercontent.com/61026070/92301387-2a70a100-ef83-11ea-8bcc-5c753134860f.png">
+![image](https://user-images.githubusercontent.com/61026070/92301448-cb5f5c00-ef83-11ea-98f9-b8829ff5b3dd.png)
 
 My Suricata setup consisting of using ET Open, TrafficID, AttackDetection, and Protocol Anomaly rulesets.
 
